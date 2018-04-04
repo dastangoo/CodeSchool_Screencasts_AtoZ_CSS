@@ -1,0 +1,27 @@
+img {
+  display: block;
+}
+.slide-container {
+  position: relative;
+  overflow: hidden;  
+  height: 200px;
+}
+
+.slide-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slide1 {animation: fade 20s 4s infinite;}
+.slide2 {animation: fade 20s 4s infinite;}
+.slide3 {animation: fade 20s 8s infinite;}
+.slide4 {animation: fade 20s 12s infinite;}
+.slide5 {animation: fade 20s 16s infinite;}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  10% {opacity: 1;}
+  20% {opacity: 1;}
+  30% {opacity: 0;}
+  100% {opacity: 0;}
+}

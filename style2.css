@@ -1,0 +1,14 @@
+.box {
+  background: #CC3F85;
+}
+
+.feature {
+  width: 75%;
+  background: rgba(102, 217, 239, 0.5);
+  padding: 1em;
+  /* opacity: 0.5; */
+}
+
+/* .feature p {
+  opacity: 1;
+} */

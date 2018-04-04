@@ -1,0 +1,32 @@
+/* auto in box model properties */
+/* .box {
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-size: auto auto;
+} */
+
+/* auto in position properties */
+/* .box {
+  position: relative | absolute | fixed ;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  z-index: auto;
+} 
+*/
+/* auto in other properties */
+/* .box {
+  overflow: auto;
+  cursor: auto;
+  table-layout: auto;
+  column-width: auto;
+} */
+
+.box {
+  /* This is default behavior */
+  /* width: auto;
+  height: auto; */
+  border: 1px solid #CC3F85;
+}

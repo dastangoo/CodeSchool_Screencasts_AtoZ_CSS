@@ -1,0 +1,7 @@
+.box {
+  /* width: auto; */
+  padding: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #CC3F85;
+}

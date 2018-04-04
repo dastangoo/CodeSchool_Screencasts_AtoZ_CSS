@@ -1,0 +1,29 @@
+.box {
+  position: relative;
+  padding: 50px;
+  border: 1px solid #CC3F85;
+}
+
+.box-title {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0;
+  font-size: 1.75em;
+  color: #000;
+  background: #CC3F85;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .box-title {
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    background: #66d9ef; 
+  }
+}

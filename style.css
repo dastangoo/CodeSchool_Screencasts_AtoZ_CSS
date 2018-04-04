@@ -1,0 +1,24 @@
+/* General Sibling Selector */
+h2 ~ p {
+  color: red;
+}
+
+/* Descendant Selector */
+/* div p {
+  color: blue;
+} */
+
+/* Grandchild Selector */
+div * p {
+  color: green;
+}
+
+/* Child Selector */
+div > p {
+  color: purple;
+}
+
+/* Adjacent Sibling Selector */
+div + p {
+  color: yellow;
+}

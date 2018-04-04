@@ -1,0 +1,14 @@
+.cube-x div {
+  width: 200px;
+  height: 200px;
+  background: red;
+  float: left;
+  position: absolute;
+  text-align: center;
+  font-size: 30px;
+  line-height: 180px;
+}
+.face-one {
+  z-index: 1;
+  opacity: 0.5;
+}

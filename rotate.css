@@ -1,0 +1,11 @@
+img {
+  /* transform: rotateZ(10deg); */
+  /* transform: rotateY(45deg); */
+  animation: spin 3s infinite linear;
+  backface-visibility: hidden;
+}
+
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}

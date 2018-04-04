@@ -1,0 +1,9 @@
+.some-container {
+  width: 200px;
+  height: 200px;
+  background: red;
+  margin: 0 auto;
+  margin-top: 10%;
+  transform-style: preserve-3d;
+  transform: rotate(45deg);
+}

@@ -1,0 +1,23 @@
+.button {
+    font-size: 1em;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.5em 1.5em;
+    text-align: center;
+}
+.button-large {
+  font-size: 2em;
+}
+.button-confirm {
+  color: #333;
+  background: lightgreen;
+  border: 1px solid darkgreen;
+}
+.button-cancel {
+  color: #fff;
+  background: crimson;
+  border: 1px solid darkred;
+}
+.button-rounded {
+  border-radius: 1em;
+}

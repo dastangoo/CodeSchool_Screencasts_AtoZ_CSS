@@ -1,0 +1,14 @@
+div {
+  float: left;
+  width: 50%;
+  margin: 1em 0;
+  padding: 2em;
+  
+  color: #eee;
+  background: #333;
+  border: 1px solid #CC3F85;
+}
+
+#feature-box {
+  width: 100%;
+}

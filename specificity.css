@@ -1,0 +1,10 @@
+#box p {
+  color: white;
+}
+.box p {
+  color: red;
+}
+
+body h1 + div.box p {
+  color: green;
+}
